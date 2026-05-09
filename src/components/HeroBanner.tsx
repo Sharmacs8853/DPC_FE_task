@@ -7,7 +7,7 @@ export default function HeroBanner() {
       {/* Player image on left */}
       <div className="absolute -left-4 bottom-0 h-full z-0">
         <img
-          src="/src/assets/icons/man_lion.svg"
+          src="/man_lion.svg"
           alt="Player"
           className="relative z-10 h-[362px] w-full object-top"
         />
@@ -51,13 +51,13 @@ export default function HeroBanner() {
           {/* VS Section */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="w-10 h-10 flex items-center justify-end">
-              <img src="/src/assets/icons/barcelona.svg" alt="Barcelona" className="w-8 h-8 object-contain" />
+              <img src="/barcelona.svg" alt="Barcelona" className="w-8 h-8 object-contain" />
             </div>
             <div className="flex items-center justify-center">
               <span className="text-[var(--hero-text)]/90 text-[10px] font-bold tracking-widest">VS</span>
             </div>
             <div className="w-10 h-10 flex items-center justify-start">
-              <img src="/src/assets/icons/g3843.svg" alt="Real Madrid" className="w-8 h-8 object-contain" />
+              <img src="/g3843.svg" alt="Real Madrid" className="w-8 h-8 object-contain" />
             </div>
           </div>
 

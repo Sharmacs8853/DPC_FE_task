@@ -24,14 +24,14 @@ export default function LeftPanel() {
 
       <LeagueTable
         title="Premier League"
-        flag='/src/assets/icons/flag2.png'
+        flag='/flag2.png'
         country="England"
         data={premierLeagueTable}
       />
 
       <LeagueTable
         title="La Liga"
-        flag='/src/assets/icons/flag1.png'
+        flag='/flag1.png'
         country="Spain"
         data={laLigaTable}
       />
