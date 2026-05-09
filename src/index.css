@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #FFFFFF;
+    --bg-surface: #F3B91A1A;
+    --bg-card: #FFFFFF;
+    --bg-inner: #F3F4F6;
+    --header-bg: #FEF8E9;
+    --text-primary: #1D2B3A;
+    --text-secondary: #8B95A1;
+    --accent: #F3B91A;
+    --accent2: #F3B91A;
+    --accent-hover: #d9a617;
+    --border-color: #E5E7EB;
+    --card-border: #E5E7EB;
+    --live-indicator: #EF4444;
+    --heart-color: #EF4444;
+    --hero-bg: #F3B91A;
+    --hero-text: #FFFFFF;
+    --hero-cta-text: #1D2B3A;
+    --hero-shape: rgba(255, 255, 255, 0.12);
+    --avatar-bg: #3D5266;
+    --white: #FFFFFF;
+    --table-card-border: #F3B91A;
+    --table-card-bg: #FFFFFF;
+  }
+
+  html.dark {
+    --bg-main: #1D2B3A;
+    --bg-surface: #3D5266;
+    --bg-card: #3D52664D;
+    --bg-inner: #1D2B3A;
+    --header-bg: #3D5266;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8B95A1;
+    --accent: #1D2B3A;
+    --accent2: #FFFFFF;
+    --accent-hover: #213041;
+    --border-color: #3D5266;
+    --card-border: #3D5266;
+    --live-indicator: #EF4444;
+    --heart-color: #EF4444;
+    --hero-bg: #3D52664D;
+    --hero-text: #FFFFFF;
+    --hero-cta-text: #1D2B3A;
+    --hero-shape: rgba(255, 255, 255, 0.04);
+    --avatar-bg: #3D5266;
+    --white: #FFFFFF;
+    --table-card-border: #FFFFFF26;
+    --table-card-bg: #3D526633;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+  .sidebar-bg {
+    background-color: var(--bg-surface);
+  }
+
+  .header-bg {
+    background-color: var(--header-bg);
+  }
+
+  .card-bg {
+    background-color: var(--bg-card);
+  }
+
+  .card-border {
+    border-color: var(--card-border);
+  }
+}
