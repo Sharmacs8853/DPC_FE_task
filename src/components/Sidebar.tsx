@@ -11,8 +11,6 @@ import {
   Baseline,
   Plus,
   Menu,
-  Moon,
-  Sun
 } from 'lucide-react'
 
 const topIcons = [
